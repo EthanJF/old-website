@@ -1,0 +1,180 @@
+body {
+  background-color: #ffb997;
+  font-family: 'Chonburi', cursive;
+  color: #843b62;
+  padding: 0px 25px;
+
+
+}
+h1 {
+  font-size:6rem;
+}
+h2 {
+  font-size: 5rem;
+  padding-top: 50%;
+}
+
+h3{
+  font-size: 2rem;
+}
+p{
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5em;
+}
+.header {
+      position: absolute;
+  padding-right: 50px;
+  left: 5%;
+}
+.main {
+      position: absolute;
+  top: 35%;
+  right: 35%;
+  text-align: center;
+}
+
+.menu{
+  font-size: 4rem;;
+  right: 5%;
+  top: 20%;
+    position: absolute;
+    text-align: right;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #843b62;
+}
+
+a:hover {
+  filter: brightness(125%);
+}
+
+a:active{
+  filter: brightness(150%);
+}
+
+button {
+  border-radius: 80%;
+  font-size: 2rem;
+  border: none;
+  font-family: 'Kanit', sans-serif;
+}
+
+button:hover{
+  filter: brightness(125%);
+}
+
+button:active{
+  filter: brightness(150%);
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+.calculator-container {
+  position: absolute;
+top: 15%;
+right: 45%;
+text-align: center;
+
+}
+
+.calculator-box {
+  font-family: 'Kanit', sans-serif;
+  background-color: #0b032d;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(5%, auto);
+  grid-gap: 5%;
+  padding: 10%;
+  height: 25rem;
+  width: 15rem;
+  margin: 0;
+}
+
+.calculator-display{
+  grid-column: 1 / 5;
+  grid-row: 1;
+  font-size: 2.5rem;
+  color: #ffb997;
+  text-align: right;
+  background-color: #0b032d;
+}
+
+.zero {
+  grid-column: 1 / 3;
+  border-radius: 15%;
+}
+
+.num-buttons {
+  background-color: #843b62;
+  color: #ffb997;
+}
+
+.operator-buttons{
+  background-color: #f67e7d;
+  color: #0b032d;
+}
+
+.projects{
+  position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+}
+
+.projects h3 {
+  font-size: 3rem;
+}
+
+.projects li {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+}
+
+.todolist-container{
+  position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+}
+
+.todolist-box{
+  background-color: #0b032d;
+  color: #f67e7d;
+  font-family: 'Kanit', sans-serif;
+  border: 2px solid #0b032d;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+}
+.todolist-item {
+  background-color: #843b62;
+  color: #ffb997;
+  padding: 2%;
+  border: 2px solid #0b032d;
+  font-size: 1.5rem;
+}
+
+.done{
+  opacity: 0.25;
+  text-decoration: line-through;
+}
+
+.todobutton {
+  background-color: #843b62;
+  color: #ffb997;
+  padding: 2%;
+  font-size: 1.25rem;
+  border-radius: 5%;
+}
