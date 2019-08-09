@@ -7,23 +7,23 @@ body {
 
 }
 h1 {
-  font-size:600%;
+  font-size:6rem;
 }
 h2 {
-  font-size: 500%;
+  font-size: 5rem;
   padding-top: 50%;
 }
 
 h3{
-  font-size: 200%;
+  font-size: 2rem;
 }
 p{
   font-family: 'Kanit', sans-serif;
-  font-size: 150%;
+  font-size: 1.5em;
 }
 .header {
       position: absolute;
-  padding-right: 5%;
+  padding-right: 50px;
   left: 5%;
 }
 .main {
@@ -34,7 +34,7 @@ p{
 }
 
 .menu{
-  font-size: 400%;;
+  font-size: 4rem;;
   right: 5%;
   top: 20%;
     position: absolute;
@@ -62,7 +62,7 @@ a:active{
 
 button {
   border-radius: 80%;
-  font-size: 200%;
+  font-size: 2rem;
   border: none;
   font-family: 'Kanit', sans-serif;
 }
@@ -97,15 +97,15 @@ text-align: center;
   grid-auto-rows: minmax(5%, auto);
   grid-gap: 5%;
   padding: 10%;
-  height: 2500%;
-  width: 1500%;
+  height: 25rem;
+  width: 15rem;
   margin: 0;
 }
 
 .calculator-display{
   grid-column: 1 / 5;
   grid-row: 1;
-  font-size: 250%;
+  font-size: 2.5rem;
   color: #ffb997;
   text-align: right;
   background-color: #0b032d;
@@ -134,12 +134,12 @@ text-align: center;
 }
 
 .projects h3 {
-  font-size: 300%;
+  font-size: 3rem;
 }
 
 .projects li {
   font-family: 'Kanit', sans-serif;
-  font-size: 200%;
+  font-size: 2rem;
 }
 
 .todolist-container{
@@ -163,7 +163,7 @@ text-align: center;
   color: #ffb997;
   padding: 2%;
   border: 2px solid #0b032d;
-  font-size: 150%;
+  font-size: 1.5rem;
 }
 
 .done{
@@ -175,6 +175,6 @@ text-align: center;
   background-color: #843b62;
   color: #ffb997;
   padding: 2%;
-  font-size: 125%;
+  font-size: 1.25rem;
   border-radius: 5%;
 }
